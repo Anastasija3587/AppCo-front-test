@@ -1,0 +1,54 @@
+$color-white: #ffffff;
+
+.wrap {
+  width: 100vw;
+  background-image: url('../../materials/svg/backFooter.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2%;
+  .form {
+    margin: 2% 0 1% 32%;
+    .input {
+      width: 579px;
+      height: 64px;
+      background: $color-white;
+      border: 1px solid #f1f1f1;
+      box-sizing: border-box;
+      border-radius: 10px;
+      font-size: 16px;
+      line-height: 162%;
+      align-items: center;
+      color: #b9b9b9;
+      padding-left: 2%;
+    }
+    .button {
+      width: 176px;
+      height: 56px;
+      border: none;
+      background: #3a80ba;
+      border-radius: 8px;
+      font-size: 16px;
+      line-height: 142%;
+      color: $color-white;
+      text-align: center;
+      transform: translateX(-181px);
+    }
+  }
+  .foot {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+    &-notice {
+      font-size: 16px;
+      line-height: 142%;
+      text-align: center;
+      color: $color-white;
+      margin-top: 45px;
+    }
+    &-logo {
+      font-size: 32px;
+      line-height: 39px;
+      color: $color-white;
+    }
+  }
+}

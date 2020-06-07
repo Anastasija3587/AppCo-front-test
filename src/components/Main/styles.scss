@@ -1,0 +1,27 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto 10%;
+  .title {
+    margin: 0 auto 2%;
+    width: 580px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #1a1a1a;
+    .span {
+      font-weight: bold;
+    }
+  }
+  .description {
+    width: 780px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 142%;
+    text-align: center;
+    margin: 0 auto 5%;
+    color: #7e7e7e;
+  }
+}
