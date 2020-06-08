@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <header className="header">
       <div>
-        <p className="logo">AppCo</p>
-        <h1 className="title">
+        <p className="header-logo">AppCo</p>
+        <h1 className="header-title">
           <span className="span">Brainstorming </span>for desired perfect
           Usability
         </h1>
@@ -16,11 +16,9 @@ const Header = () => {
           Our design projects are fresh and simple and will benefit your
           business greatly. Learn more about our work!
         </p>
-        <button className="btn" type="button">
-          <NavLink className="btn-link" to="/users">
-            Views Stats
-          </NavLink>
-        </button>
+        <NavLink className="btn" to="/users">
+          Views Stats
+        </NavLink>
       </div>
       <div>
         <img className="iphone" alt="iphone" src={iphone} width="400" />

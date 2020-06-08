@@ -9,8 +9,8 @@ const App = () => {
     <div>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/users" component={Users} />
         <Route path="/users/:id" component={Statistics} />
+        <Route path="/users" component={Users} />
       </Switch>
     </div>
   );

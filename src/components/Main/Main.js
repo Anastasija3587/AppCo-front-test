@@ -5,7 +5,7 @@ import './styles.scss';
 const Main = () => {
   return (
     <main className="wrapper">
-      <h2 className="title">
+      <h2 className="wrapper-title">
         Why <span className="span">small business owners love</span> AppCo?
       </h2>
       <p className="description">

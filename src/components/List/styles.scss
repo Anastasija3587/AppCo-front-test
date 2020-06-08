@@ -16,19 +16,17 @@
         margin: 10%;
       }
     }
-    .title {
+    &-title {
       width: 164px;
-      font-style: normal;
       font-weight: 600;
       font-size: 24px;
       line-height: 29px;
       text-align: center;
       color: #1a1a1a;
+      margin-left: 27%;
     }
-    .text {
+    &-text {
       width: 316px;
-      font-style: normal;
-      font-weight: normal;
       font-size: 16px;
       line-height: 142%;
       text-align: center;

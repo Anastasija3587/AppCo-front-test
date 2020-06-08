@@ -7,13 +7,13 @@ $color-white: #ffffff;
   background-image: url('../../materials/svg/background.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  .logo {
+  &-logo {
     font-size: 40px;
     line-height: 49px;
     color: $color-white;
     padding-bottom: 3%;
   }
-  .title {
+  &-title {
     width: 586px;
     font-weight: normal;
     font-style: normal;
@@ -33,17 +33,15 @@ $color-white: #ffffff;
     padding-bottom: 10%;
   }
   .btn {
+    display: block;
     width: 154px;
-    height: 56px;
+    padding: 25px 0;
     background: $color-white;
     border-radius: 8px;
-    border: none;
     font-size: 16px;
     line-height: 142%;
     text-align: center;
-    &-link{
-      text-decoration: none;
-      color: #3a80ba;
-    }
+    text-decoration: none;
+    color: #3a80ba;
   }
 }

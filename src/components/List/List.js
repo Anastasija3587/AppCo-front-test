@@ -12,8 +12,8 @@ const List = () => {
         <div className="item-background">
           <img className="item-background_svg" src={svgDesign} alt="svg" />
         </div>
-        <p className="title">Clean Design</p>
-        <p className="text">
+        <p className="item-title">Clean Design</p>
+        <p className="item-text">
           Increase sales by showing true dynamics of your website.
         </p>
       </li>
@@ -21,8 +21,8 @@ const List = () => {
         <div className="item-background">
           <img className="item-background_svg" src={svgSecure} alt="svg" />
         </div>
-        <p className="title">Secure Data</p>
-        <p className="text">
+        <p className="item-title">Secure Data</p>
+        <p className="item-text">
           Build your online store’s trust using Social Proof & Urgency.
         </p>
       </li>
@@ -30,8 +30,8 @@ const List = () => {
         <div className="item-background">
           <img className="item-background_svg" src={svgRetina} alt="svg" />
         </div>
-        <p className="title">Retina Ready</p>
-        <p className="text">
+        <p className="item-title">Retina Ready</p>
+        <p className="item-text">
           Realize importance of social proof in customer’s purchase decision.
         </p>
       </li>
