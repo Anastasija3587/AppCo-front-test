@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './styles.scss';
 import Table from '../../components/Table/index';
 import * as API from '../../services/api';
@@ -83,4 +83,4 @@ const Users = () => {
   );
 };
 
-export default withRouter(Users);
+export default Users;

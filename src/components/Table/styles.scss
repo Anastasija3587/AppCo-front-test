@@ -1,0 +1,52 @@
+.lists {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 0;
+  &-item {
+    text-align: center;
+    padding-top: 9px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  .id {
+    width: 5%;
+  }
+  .first {
+    width: 15%;
+  }
+  .last {
+    width: 15%;
+  }
+  .mail {
+    width: 30%;
+  }
+  .gender {
+    width: 10%;
+  }
+  .address {
+    width: 15%;
+  }
+  .click {
+    width: 10%;
+  }
+  .pages {
+    width: 10%;
+  }
+}
+.link {
+  text-decoration: none;
+  display: block;
+}
+.link:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+.top {
+  background: #3a80ba;
+}
+.roll {
+  color: #1a1a1a;
+}
