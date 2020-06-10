@@ -25,3 +25,13 @@
     color: #7e7e7e;
   }
 }
+@media (max-width: 1024px) {
+  .wrapper {
+    &-title {
+      width: 100%;
+    }
+    .description {
+      width: 100%;
+    }
+  }
+}

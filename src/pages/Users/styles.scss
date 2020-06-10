@@ -71,3 +71,27 @@ $color-white: #ffffff;
     }
   }
 }
+@media (max-width: 1024px) {
+  .container {
+    .wrapFoot {
+      &-notice {
+        font-size: 12px;
+      }
+      &-logo {
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    .wrapFoot {
+      &-notice {
+        font-size: 9px;
+      }
+      &-logo {
+        font-size: 22px;
+      }
+    }
+  }
+}

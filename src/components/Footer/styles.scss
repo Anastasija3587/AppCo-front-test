@@ -52,3 +52,51 @@ $color-white: #ffffff;
     }
   }
 }
+@media (max-width: 1024px) {
+  .wrap {
+    .form {
+      margin-left: 17%;
+      .input {
+        width: 450px;
+      }
+      .button {
+        width: 140px;
+        height: 39px;
+      }
+    }
+    .foot {
+      width: 90%;
+      &-notice {
+        font-size: 12px;
+      }
+      &-logo {
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .wrap {
+    .form {
+      .input {
+        width: 200px;
+        height: 50px;
+      }
+      .button {
+        transform: none;
+        width: 120px;
+        height: 39px;
+        margin-left: 20%;
+      }
+    }
+    .foot {
+      width: 90%;
+      &-notice {
+        font-size: 9px;
+      }
+      &-logo {
+        font-size: 22px;
+      }
+    }
+  }
+}

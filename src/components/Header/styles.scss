@@ -45,3 +45,22 @@ $color-white: #ffffff;
     color: #3a80ba;
   }
 }
+
+@media (max-width: 1024px) {
+  .wrapp {
+    width: 100%;
+  }
+  .header {
+    &-title {
+      font-size: 36px;
+      width: 100%;
+    }
+    .description {
+      font-size: 26px;
+      width: 100%;
+    }
+    .iphone {
+      display: none;
+    }
+  }
+}

@@ -6,7 +6,7 @@ import iphone from '../../materials/svg/iphone.svg';
 const Header = () => {
   return (
     <header className="header">
-      <div>
+      <div className="wrapp">
         <p className="header-logo">AppCo</p>
         <h1 className="header-title">
           <span className="span">Brainstorming </span>for desired perfect

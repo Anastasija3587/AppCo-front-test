@@ -1,5 +1,5 @@
 .chart {
-  width: 1165px;
+  width: 1000px;
   margin: auto;
 }
 
@@ -13,7 +13,25 @@
   color: #1a1a1a;
   padding: 0 5%;
 }
-.btnOk{
+.btnOk {
   cursor: pointer;
   background: #9ac9f0;
+}
+
+@media (max-width: 1024px) {
+  .chart {
+    width: 450px;
+  }
+  .form {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 425px) {
+  .chart {
+    width: 300px;
+    margin: 0;
+  }
+  .form {
+    margin: 0;
+  }
 }
