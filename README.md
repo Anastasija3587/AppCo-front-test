@@ -1,4 +1,8 @@
-Project that involve using React.js, SCSS.
+[I'm link to app. Let's watch](https://anastasiia-appco.herokuapp.com/)
+
+Project that involve using React.js, SCSS. 
+
+BackEnd (https://github.com/Anastasija3587/AppCo_test) that involve using Node.js, Express, Sequelize.
 
 Usage
 
